@@ -10,7 +10,7 @@ import com.pi4j.io.gpio.RaspiPin;
  *
  * @author Robert Savage
  */
-public class 01led {
+public class Led{
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -55,6 +55,6 @@ public class 01led {
         // (this method will forcefully shutdown all GPIO monitoring threads and scheduled tasks)
         gpio.shutdown();
 
-        System.out.println("Exiting 01led");
+        System.out.println("Exiting Led");
     }
 }

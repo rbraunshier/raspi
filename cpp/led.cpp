@@ -1,6 +1,6 @@
 // Hier binden wir WiringPi ein sowie die C-Standard Ein -/ Ausgabe
-#include <wiringPi .h>
-#include <stdio .h>
+#include <wiringPi.h>
+#include <stdio.h>
 int main () {
 // Initialisieren der WiringPi API
 if ( wiringPiSetup() == -1)

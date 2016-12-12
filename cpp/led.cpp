@@ -6,11 +6,11 @@ int main () {
 if ( wiringPiSetup() == -1)
 return 1;
 // Setze GPIO 18 (= WiringPi Pin 0) als Ausgangspin
-pinMode (0, OUTPUT );
+pinMode (1, OUTPUT );
 // Start einer Endlosschleife
 while (1) {
 // Spannung einschalten , LED leuchtet .
-digitalWrite(0, 1);
+digitalWrite(1, 1);
 // 1 s warten . Wartezeit wird in ms angegeben .
 delay (1000) ;
 // Spannung ausschalten . LED geht aus.

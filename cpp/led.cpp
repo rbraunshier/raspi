@@ -5,7 +5,7 @@ int main () {
 // Initialisieren der WiringPi API
 if ( wiringPiSetup() == -1)
 return 1;
-// Setze GPIO 17 (= WiringPi Pin 0) als Ausgangspin
+// Setze GPIO 18 (= WiringPi Pin 0) als Ausgangspin
 pinMode (0, OUTPUT );
 // Start einer Endlosschleife
 while (1) {
